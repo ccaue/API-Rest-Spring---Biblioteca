@@ -19,6 +19,6 @@ public class Livro {
     @Column(name="ano")
     private int ano;
     
-    @Column(name="disponibilidade")
-    private boolean disponibilidade;
+    @Column(name="capa")
+    private String capa;
 }
