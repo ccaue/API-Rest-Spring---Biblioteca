@@ -20,7 +20,4 @@ public class Emprestimo {
     
     @Column(name="dataEmprestimo")
     private LocalDate dataEmprestimo;
-    
-    @Column(name="dataDevolucao")
-    private LocalDate dataDevolucao;
 }
