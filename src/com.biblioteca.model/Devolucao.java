@@ -17,7 +17,4 @@ public class Devolucao {
     
     @Column(name="dataDevolucao")
     private LocalDate dataDevolucao;
-    
-    @Column(name="multa")
-    private boolean multa;
 }
