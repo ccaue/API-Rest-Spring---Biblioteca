@@ -5,6 +5,7 @@ import lombok.Data;
 
 @Data
 @Entity
+@Table(name="livro")
 public class Livro {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,4 +22,7 @@ public class Livro {
     
     @Column(name="capa")
     private String capa;
+
+    @Column(name="quantidade")
+    private int quantidade;
 }
