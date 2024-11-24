@@ -23,9 +23,6 @@ public class Cliente {
     @Column(name="endereco")
     private String endereco;
 
-    @Column(name="usuario")
-    private String usuario;
-
     @Column(name="senha")
     private String senha;
 }
