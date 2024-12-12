@@ -3,7 +3,7 @@
 # REQUISITOS BANCO DE DADOS:
 - Baixe o MySQL (full) e o XAMPP na sua máquina.
 - Estabeleça a conexão entre o XAMPP e o MySQL.
-- Crie uma nova conexão no MySQL Workbench, e nela crie a database "estacionamento"
+- Crie uma nova conexão no MySQL Workbench, e nela crie a database "biblioteca"
 
 # REQUISITOS NA IDE:
 - SpringTools4
